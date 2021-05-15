@@ -5,7 +5,7 @@ from sklearn import model_selection
 import os
 
 def main(family='gpcr'):
-    data_dir = '../data/gvk/%s' % (family)
+    data_dir = 'data/%s' % (family)
 
     dfs = []
     for split in ['train', 'test']:
